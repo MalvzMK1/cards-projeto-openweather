@@ -47,7 +47,7 @@ class WeatherCard extends HTMLElement{
       }
 
       .card-photo {
-        width: 60%;
+        filter: drop-shadow(0px 0px 2px #000);
       }
 
       .card-degree {
@@ -57,6 +57,7 @@ class WeatherCard extends HTMLElement{
       }
 
       .card-name {
+        height: 30%;
         font-size: 2rem;
         font-weight: bolder;
         font-family: 'Inter', sans-serif;
